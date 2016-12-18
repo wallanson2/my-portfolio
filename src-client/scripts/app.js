@@ -25,6 +25,9 @@ document.querySelector('#app-container').innerHTML =
     <div class="intro-container" id="section1">
       <h1 class="name">William Allanson</h1>
       <h2 class="title">Front-End Engineer</h2>
+      <div class="saying">
+        <h3>Sunrise brings in another great day<br/>to learn something new.</h3>
+      </div>
     </div>
     <div class="project-header" id="section2">
       <h1>Recent Projects</h1>
@@ -33,11 +36,11 @@ document.querySelector('#app-container').innerHTML =
 
       <div class="project1">
         <img src="./images/Presta_screenshot.png" height="250" width="350"/>
-        <h4>Application to bring together people in order to facilitate the renting of goods.<br/><br/>Tech Stack:  HTML, SCSS, Javascript, Backbone, REACT, FLUX, Google Maps API, Java, Spring Boot, MailGun email API, H2 Database Engine<br/><br/>See the code: <a href="https://github.com/wallanson2/PrestaTradingPost-1">https://github.com/wallanson2/PrestaTradingPost-1</a><br/><br/>Live site: <a href="http://67.205.163.173:8080/">http://67.205.163.173:8080/</a></h4>
+        <h4>Application to bring together people in order to facilitate the renting of goods.<br/><br/>Tech Stack:  HTML, SCSS, Javascript, Backbone, REACT, FLUX, Google Maps API, with collaboration with back-end Java, Spring Boot, MailGun email API, Google Maps java API, H2 Database Engine<br/><br/>See the code: <a href="https://github.com/wallanson2/PrestaTradingPost-1">https://github.com/wallanson2/PrestaTradingPost-1</a><br/><br/>Live site: <a href="http://67.205.163.173:8080/">http://67.205.163.173:8080/</a></h4>
       </div>
       <div class="project2">
         <img src="./images/Etsy_clone.png" height="250" width="350"/>
-        <h4>Etsy Clone<br/><br/>Tech stack:  HTML, SCSS, Javascript, Backbone, Etsy API, AJAX, Heroku<br/><br/>See the code: <a href="https://github.com/wallanson2/assignment-20-etsy-clone">https://github.com/wallanson2/assignment-20-etsy-clone</a><br/><br/>Live site: <a href="https://willetsyclone.herokuapp.com/">https://willetsyclone.herokuapp.com/</a></h4>
+        <h4>Etsy Clone<br/><br/>Tech stack:  HTML, SCSS, Javascript, Backbone, Etsy API, AJAX, JQuery, Heroku<br/><br/>See the code: <a href="https://github.com/wallanson2/assignment-20-etsy-clone">https://github.com/wallanson2/assignment-20-etsy-clone</a><br/><br/>Live site: <a href="https://willetsyclone.herokuapp.com/">https://willetsyclone.herokuapp.com/</a></h4>
       </div>
       <div class="project3">
         <img src="./images/Github_clone.png" height="250" width="350"/>
