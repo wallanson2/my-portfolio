@@ -66,12 +66,14 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 
 	border-radius: 10px;
 
 }
 
 .name {
+		// position: fixed;
 		font-size: 80px;
 		margin-left: 100px;
 
@@ -108,6 +110,43 @@ body{
 	}
 }
 
+// .proj-img:hover {
+// 	box-shadow: 5px 5px 5px #888888;
+//
+// }
+
+// .rotate_right:hover {
+// 	-ms-transform: rotate(7deg); /* IE 9 */
+// 	-webkit-transform: rotate(7deg); /* Safari */
+// 	transform: rotate(7deg);
+// }
+
+.proj-img:hover {
+	box-shadow: 5px 5px 5px #888888;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
 // .project-header h1 {
 // 	margin-left: 100px;
 // 	margin-bottom: 0px;
@@ -128,21 +167,22 @@ body{
 	width: 100%;
 	background-color: lightgrey;
 	img {
-		padding-top: 15px;
-		padding-left: 15px;
-		padding-bottom: 15px;
+		// padding-top: 15px;
+		// padding-left: 15px;
+		// padding-bottom: 0px;
 		display: inline-block;
 		width: 40%;
 		height: auto;
-		margin-top: 40px;
+		margin-top: 55px;
 		margin-bottom: 40px;
+		margin-left: 15px;
 	}
 	h4 {
 		width: 500px;
 		display: inline-block;
 		vertical-align: top;
 		padding-left: 20px;
-		margin-top: 60px;
+		margin-top: 50px;
 	}
 }
 
@@ -152,14 +192,15 @@ body{
 	width: 100%;
 	background-color: lightblue;
 	img {
-		padding-top: 15px;
-		padding-left: 15px;
-		padding-bottom: 10px;
+		// padding-top: 15px;
+		// padding-left: 15px;
+		// padding-bottom: 10px;
 		display: inline-block;
 		width: 40%;
 		height: auto;
-		margin-top: 40px;
+		margin-top: 55px;
 		margin-bottom: 40px;
+		margin-left: 15px;
 	}
 	h4 {
 		width: 500px;
@@ -178,14 +219,15 @@ body{
 	background-color: lightgrey;
 	border-radius: 0 0 10px 10px;
 	img {
-		padding-top: 15px;
-		padding-left: 15px;
-		padding-bottom: 10px;
+		// padding-top: 15px;
+		// padding-left: 15px;
+		// padding-bottom: 10px;
 		display: inline-block;
 		width: 40%;
 		height: auto;
-		margin-top: 40px;
+		margin-top: 55px;
 		margin-bottom: 40px;
+		margin-left: 15px;
 	}
 	h4 {
 		width: 500px;
@@ -273,13 +315,10 @@ body{
 	h2 {
 		margin-left: 60px;
 		margin-right: 20px;
-	}
-	span {
-		// margin-right: 40px;
-		// margin-bottom: 200px;
+		margin-bottom: 250px;
 	}
 	i {
-		margin-bottom: 375px;
+		margin-bottom: 250px;
 		margin-right: 40px;
 	}
 }
@@ -287,6 +326,10 @@ body{
 .github {
 	margin-left: 35%;
 }
+
+// .fa {
+// 	padding-top: 100px;
+// }
 
 // .project-container img {
 // 	padding-top: 15px;
