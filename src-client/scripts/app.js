@@ -10,15 +10,15 @@ document.querySelector('#app-container').innerHTML =
   `<div class="container">
     <div class="menu">
       <ul>
-        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-        <a href="#section1">  Home</a>
-        <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+        <a href="#section1"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+        <a href="#section1">Home</a>
+        <a href="#section2"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></a>
         <a href="#section2">Projects</a>
-        <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+        <a href="#section3"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
         <a href="#section3">Resume</a>
-        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        <a href="#section4"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
         <a href="#section4">About Me</a>
-        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+        <a href="#section5"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
         <a href="#section5">Contact</a>
       </ul>
     </div>

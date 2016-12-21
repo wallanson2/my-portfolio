@@ -46,13 +46,35 @@ body{
 		color: #fff;
 
 	}
-	span {
+	 a span {
 		margin-left: 20%;
 		padding-top: 10px;
 		// height: 35px;
 		// width: 35px;
 		font-size: 30px;
 	}
+}
+
+// .menu span:hover {
+// 	-webkit-transform: rotate(10deg);
+//      -moz-transform: rotate(10deg);
+//        -o-transform: rotate(10deg);
+//       -ms-transform: rotate(10deg);
+//           transform: rotate(10deg);
+// 	color: darkblue;
+// }
+
+.menu a:hover,
+.menu span:hover {
+	-webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+	color: #33E6FF;
+	// .menu span {
+	// 	color: #33E6FF;
+	// }
 }
 
 .intro-container {
@@ -266,6 +288,7 @@ body{
 	h1 {
 		margin-left: 100px;
 		margin-bottom: 0px;
+		margin-top: -1px;
 		padding-top: 15px;
 		padding-bottom: 15px;
 	}
@@ -315,7 +338,7 @@ body{
 	h2 {
 		margin-left: 60px;
 		margin-right: 20px;
-		margin-bottom: 250px;
+		margin-bottom: 170px;
 	}
 	i {
 		margin-bottom: 250px;
