@@ -10,16 +10,16 @@ document.querySelector('#app-container').innerHTML =
   `<div class="container">
     <div class="menu">
       <ul>
-        <a href="#section1"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
-        <a href="#section1">Home</a>
-        <a href="#section2"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></a>
-        <a href="#section2">Projects</a>
-        <a href="#section3"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
-        <a href="#section3">Resume</a>
-        <a href="#section4"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
-        <a href="#section4">About Me</a>
-        <a href="#section5"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
-        <a href="#section5">Contact</a>
+        <a href="#section1" class="nav-icon"><span class="fa fa-home" aria-hidden="true"></span></a>
+        <a href="#section1" class="nav-listing">Home</a>
+        <a href="#section2" class="nav-icon"><span class="fa fa-briefcase" aria-hidden="true"></span></a>
+        <a href="#section2" class="nav-listing">Projects</a>
+        <a href="#section3" class="nav-icon"><span class="fa fa-file-text-o" aria-hidden="true"></span></a>
+        <a href="#section3" class="nav-listing">Resume</a>
+        <a href="#section4" class="nav-icon"><span class="fa fa-user" aria-hidden="true"></span></a>
+        <a href="#section4" class="nav-listing">About Me</a>
+        <a href="#section5" class="nav-icon"><span class="fa fa-pencil" aria-hidden="true"></span></a>
+        <a href="#section5" class="nav-listing">Contact</a>
       </ul>
     </div>
     <div class="intro-container" id="section1">
@@ -51,7 +51,7 @@ document.querySelector('#app-container').innerHTML =
       <h1>Resume</h1>
     </div>
     <div class="resume">
-      <a href="./documents/resume_2.pdf" target="_blank"><img src="./documents/resume_2.png" height="250" width="350"/></a>
+      <a href="./documents/resume3.pdf" target="_blank"><img src="./documents/resume3ca.png" height="250" width="350"/></a>
     </div>
     <div class="about-header" id="section4">
       <h1>About Me</h1>
